@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+            table,th,td{
+                border: 1px solid black; 
+                border-collapse: collapse;
+
+            }
+            th,td{
+                padding: 25px; 
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        
+   <br><br>
+
+         <table>
+            <thead>
+                <tr>
+                    <th colspan="2">1</th>
+                    <th colspan="2">2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td colspan="2">7</td>
+                    <td>8</td>
+                    <td rowspan="3">9</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td colspan="2">11</td>
+                </tr>
+                <tr>
+                    <td colspan="3">12</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="2">5</td>
+                    <td colspan="2">6</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td colspan="3">11</td>
+                </tr>
+                <tr>
+                    <td colspan="3">12</td>
+                </tr>
+            </tbody>
+        </table> 
+        <br><br><br>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time Table</th> 
+                                   
+                    <th>10A-12PM</th>
+                    <th>12AM-2PM</th>
+                    <th>2PM-3PM</th>
+                    <th>3PM-5PM</th>
+                </tr>
+                    
+                  
+                
+            </thead>
+            <tbody>
+                <tr>
+                    <th>MONDAY</th>
+                    <td>Python</td>
+                    <td>WEB</td>
+                    <td rowspan="5">L <br> U<br>N<br>C<br>H<br><br> B<br>R<br>E<br>A<br>K</td>
+                    <td>SQL</td>
+                </tr>
+                <tr>
+                    <th>THUESDAY</th>
+                    <td>SQL</td>
+                    <td>Django</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <th>WEDNESDAY</th>
+                    <td>Web</td>
+                    <td>Python</td>
+                    <td>Django</td>
+                   </tr>
+                <tr>
+                    <th>FRIDAY</th>
+                    <td>Python</td>
+                    <td>Web</td>
+                    <td>Web</td>
+                 </tr>
+
+            </tbody>
+        </table>
+    </body>
+</html>

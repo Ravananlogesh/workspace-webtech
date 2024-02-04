@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+   <fieldset>
+    <legend><h1>Student Details</h1></legend>
+    <form action="#" method="post" autocomplete="on" novalidate>
+        <label for="user_fname">Firstname :</label>
+        <input type="text" name="user_first_name" id="user_fname" placeholder="Enter your First name" autofocus>
+        <br><br>
+        <label for="user_lname">LastName :</label>
+        <input type="text" name="user_last_name" id="user_lname" value="smith" readonly>
+        <br><br>
+        <label for="user_age">Age :</label>
+        <input type="number" name="user_current_age" id="user_age" placeholder="enter age" step="5">
+        <br><br>
+        <label for="">Gender :</label>
+        <input type="radio" name="user_gen" id="user_male" value="male" >Male
+        <input type="radio" name="user_gen" id="user_female" value="female">Female
+        <input type="radio" name="user_gen" id="user_Other" value="Others">Others
+        <br><br>
+        <label for="user_qualification1">Qualification</label>
+        <input type="checkbox" name="user_qualification_MSc" id="user_qualification1" value="MSc">MSc
+        <input type="checkbox" name="user_qualification_BSc" id="user_qualification2" value="BSc">BSc
+        <input type="checkbox" name="user_qualification_Others" id="user_qualification3" value="Others">Other
+        <br><br>
+        <label for="user_choose_course">ChooseCourse :</label>
+        <select name="user_choose_of_course" id="user_choose_course">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScripts</option>
+        </select>
+        </label>
+        <br><br>
+        <label for="user_dob">DateOfBirth</label>
+        <input type="datetime-local" name="user_date_of_birth" id="user_dob"><br><br>
+        <label for="user_email">Email :</label>
+        <input type="email" name="user_contact_email"  id="user_email" placeholder="Email">
+        <br><br>
+        <label for="user_mobile"> Mobile Number :</label>
+        <input type="tel" name="user_contact_number" id="user_mobile" pattern="[0-9]{10}" placeholder="phone number">
+         <br><br>
+         <label for="user_address">Address</label><br>
+         <textarea name="user_contact_address" id="user_address"  
+         cols="30" rows="10"></textarea>
+         <br><br>
+         <label for="user_resumate">Choose File</label>
+         <input type="file" name="User_resume_file" id="user_resumate">
+         <br><br>
+         <input type="submit" name="" id="">
+         <input type="reset"  name="" id="">
+         
+    </form>
+   </fieldset>
+    
+</body>
+</html>
