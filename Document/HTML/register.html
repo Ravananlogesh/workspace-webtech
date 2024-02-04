@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #main{
+            height: 100vh;
+            position: fixed;
+            width: 100%;
+            background-image: url("../../image/backlog.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container{
+            height: 550px;
+            width: 450px;
+            border-radius: 30px;
+            background-color: rgba(17, 17, 17, 0.9);
+        }
+        #form-container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #form{
+            margin-left: 30px;
+            padding: 20px;
+            height: 380px;
+            width: 400px;
+        }
+        .content{
+            font-weight:700;
+            display: inline-block;
+            width: 150px;
+            color: white;
+            
+        }
+        .input
+        {
+            border-radius: 15px;
+            border: none;
+            height: 35px;
+            width: 200px;
+            font-size: 18px;
+            color: #09469b;
+        }
+        .input::placeholder{
+            font-size: 15px;
+        }
+        #submit{
+            border-radius: 40px;
+            border: none;
+            padding: 10px;
+            background-color: #F9EAD7;
+            color: black;
+            font-size: 20px;
+            margin-left: 150px;
+        }
+        #submit:hover{
+           
+            background-color: #09469b;
+            color: white;
+            
+
+        }
+        .para{
+           color: red;
+        }
+        #lastpara{
+             font-size: 20px;
+             color: rgb(255, 255, 255);
+        }
+        #link{
+            color: rgb(9, 255, 128);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        #head{
+            text-align: center;
+            color: rgb(252, 237, 210);
+        }
+        #eye-contain{
+              display: inline;
+              position: relative;
+        }
+    #eye{
+      position: absolute;
+      right: 5px;
+      top: 0px;
+      cursor: pointer;
+    }
+    .para{
+        display: none;
+        margin: 0px;
+    }
+    .para::before{
+        content: "**"
+    }
+    .para::after{
+        content: "**";
+    }
+    </style>
+</head>
+<body>
+      <div id="main">
+      <div id="container">
+         <h1 id="head">Create Login</h1>
+               <div id="form-container">
+                <form id="form" action="../HTML/Login.html">
+                  <label for="name" class="content">Student Username</label>
+                  <input type="text" id="name" name="name" class="input" placeholder="Student Username" required>
+                  <br>
+                  <p class="para"></p>
+                  <br>
+                  <label for="email" class="content">Student Email</label>
+                  <input id="email" name="email" type="email" class="input" placeholder="Student Email" required>
+                  <br>
+                  <p class="para"></p>
+                  <br>
+                  <label for="password" class="content">New Password</label>
+                  <input id="password" name="password" type="password" class="input" placeholder="New Password" required>
+                  <br>
+                  <p class="para"></p>
+                  <br>  
+                  <label for="conform" class="content">Conform Password</label>
+                  <div id="eye-contain" >
+                    <input id="conform" name="form" type="password" class="input" placeholder="Conform Password">
+                    <div id="eye"><i class="fa-solid fa-eye-slash"></i></div>
+                  </div>
+                  <br>
+                  <p class="para"></p>
+                <br>
+                <br>
+                <input id="submit" type="submit" value="Register" >
+                <p id="lastpara">Already you Have an Account ? <a id="link" href="../HTML/Login.html">Login Here</a>.</p>
+                </form>
+               </div>
+              
+      </div>
+
+      </div>
+
+
+       <script src="../JS/register.js"></script>
+      <script src="https://kit.fontawesome.com/4080ed022e.js" crossorigin="anonymous"></script>
+</body>
+</html>

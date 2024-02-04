@@ -1,0 +1,49 @@
+/* #para{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    transition: 5s;
+   transform: rotate(25deg);
+}
+#para:hover{
+    /* transform: translate(250px); */
+ 
+/* } */
+/* #main_content{
+    border: 10px solid black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-left: 10px solid white;
+    background-color: lightgreen; 
+    transition: 12s;
+    
+    
+}
+#main_content:hover{
+    transform: rotate(3900deg);
+} */
+/* button{
+ transition: 0.5s;
+ padding: 20px;
+ padding-right: 30px;
+ border-radius: 40px;
+
+ 
+}
+button:hover{
+    transform: scale(1.2,1.2);
+} */
+#para{
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    transition: 5s;
+    
+}
+#para:hover{
+    transform: skewY(25deg);
+}

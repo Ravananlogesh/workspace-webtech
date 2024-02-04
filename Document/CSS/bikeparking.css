@@ -1,0 +1,67 @@
+body{
+   
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#parent{
+    background-image: url("../../image/bike.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#head{
+    padding: 10px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    background-color: rgba(182,180,183,0.8);
+    text-align: center;
+    margin: 0px;
+    color: rgb(59, 36, 36);
+}
+.content{ 
+    font-size: 20px;
+    display: block;
+    
+    color: wheat;
+}
+.inputval{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 20px;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid rgb(190, 190, 243);
+    background-color:  rgba(0,0,0,0.5);
+}
+input:focus{
+    background-color:  rgba(243, 239, 239, 0.3);
+}
+input::placeholder{
+    color: rgb(105, 104, 102);
+    padding: 20px;
+}
+#main-container{
+    margin-top:50px ;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+padding: 30px;
+border-radius: 20px;
+background-color: rgba(0,0,0,0.8);
+}
+#submit{
+    padding:15px 20px;
+    background-color: bisque;
+    border-radius: 40px;
+    border: none;
+    margin-left: 100px;
+}
+#submit:hover{
+    background-color: rgb(48, 117, 122);
+    color: white;
+}

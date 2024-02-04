@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../CSS/login.css">
+</head>
+<body>
+       <div id="main-container">
+        <div id="container">
+            <div id="sub1">
+                <div id="log" class="child" onclick="login()">
+                    <a class="link"  href="#">Login</a>
+                </div>
+                <div id="sign" class="child" style="border: none;" onclick="signUp()">
+                    <a class="link" href="#">Sign Up</a>
+                </div>
+            </div>
+           <div id="userlogin" >
+            <div id="login-container">
+                <form action="login" method="post">
+                    <label class="content" for="username">Username:</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="input" type="text" id="username" name="username" placeholder="username" required>
+                <br>
+                    <label class="content" for="password">Password:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="input" type="password" id="password" name="password" placeholder="password" required>
+                  <br>
+                    <button class="button" type="submit">Login</button>
+                </form>
+            </div>
+            <div id="register-container">
+                <form action="register" method="post">
+                    
+                    <label class="content" for="email">Email :</label>
+                    <i class="fa-solid fa-user"></i>
+                    <input class="input" type="email" id="email" name="email" placeholder="email" required>
+                     <br>
+                    <label class="content" for="username">Username:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="input" type="text" id="username" name="username" placeholder="username" required>
+                    <br>
+                    <label class="content" for="password">Password:</label>
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="input" type="password" id="password" name="password" placeholder="confirm-password" required>
+                     <br>
+                    <button class="button" type="submit">SignUp</button>
+                </form>
+            </div>
+           </div>
+           </div>
+       </div>
+       <script src="../JS/loginTast.js"></script>
+       <script src="https://kit.fontawesome.com/4080ed022e.js" crossorigin="anonymous"></script>
+</body>
+</html>

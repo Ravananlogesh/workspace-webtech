@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/bikeparking.css">
+</head>
+<body>
+   <div id="parent">
+    <h1 id="head">Parking Slot</h1>
+    <div id="main-container">
+        <div id="container">
+            <form id="form">
+              <label class="content" for="bikename">Bike Name</label>
+                <input class="inputval"  type="text" name="bikename" id="bikename" placeholder="bikename" required>
+                <br>
+                <label class="content" for="bikeno">Bike Number</label>
+                <input class="inputval" type="text" name="bikeno" id="bikeno" placeholder="bike number" required>
+                <br>
+                <label class="content" for="checkin">Check In</label>
+                <input class="inputval" type="datetime-local" name="checkin" id="checkin" required>
+                <br>
+                <label class="content" for="checkout">Check Out</label>
+                <input class="inputval" type="datetime-local" name="checkout" id="checkout" required>
+                <br>
+                <button id="submit" type="button">Submit</button>                                    
+                <br>
+            </form>
+        </div>
+       
+    </div>
+   </div>
+
+
+    <script src="../JS/parking.js"></script>
+    
+</body>
+</html>

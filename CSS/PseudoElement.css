@@ -1,0 +1,55 @@
+/* p::first-letter{
+  font-size: 30px;
+    color: red;
+}
+p::first-line{
+    color: blue;
+}
+p::selection{
+    background-color: yellowgreen;
+    color: red;
+}
+ul>li::marker{
+    color: red;
+    font-size: xx-large;
+}*/
+div{
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+}
+/* h1::before{
+    content: "<---";
+    color: aqua;
+    font-size: 40px;
+} */
+/* h1::after{
+    content: "--->";
+    color: brown;
+    font-size: 40px;
+} */ 
+h1{
+    color: rgb(97, 53, 53);
+}
+h1::before{
+    content:"";
+    border: 1px solid rgb(139, 128, 128);
+    width: 350px;
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    /* border-bottom-style: none; */
+    border-top-style: none  ;
+
+}
+h1::after{
+    content: "";
+    border: 1px solid rgb(139, 128, 128);
+    width: 350px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+    border-bottom-style: none;
+
+
+}

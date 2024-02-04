@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        background-color: rgba(0, 0, 0,0.3);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #calci{
+        height: 100vh;
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        display: none;
+        color: rgb(100, 2, 2);
+        background-color: rgba(0, 0, 0,0.5);
+        text-align: center;
+        
+    }
+    #head{
+        margin-top: 200px;
+    }
+    #restart{
+        padding: 20px;
+        background-color: green;
+        border-radius: 20px;
+    }
+    #container{
+        margin-top: 100px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(248, 81, 81);
+        font-weight: bold;
+    }
+    input{
+        border: 1px solid blue;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 20px;
+        
+    }
+    input:focus{
+        outline: 4px solid black;
+    }
+    .button{
+        width: 100px;
+        border: 1px solid blue;
+        height: 50px;
+        border-radius: 40px;
+        padding: 10px;
+        margin: 5px;
+    }
+    .button:focus{
+        outline: 4px solid black;
+        background-color: rgb(231, 86, 86);
+    }
+    
+</style>
+<body>
+    <!-- <select name="select" id="choose">
+        <option value="chennai">Chennai</option>
+        <option value="banglore">Banglore</option>
+        <option value="coimbatore">Coimbatore</option>
+    </select>
+    <h1 id="head">The result will be display soon</h1>
+
+
+    <script src="../JS/eventHandle2.js"></script> -->
+    <div id="container">
+      <div class="child">
+        value1: <input id="num1" type="number" required>
+        <br><br>
+        value2: <input id="num2" type="number" required>
+        <br><br>
+      </div>
+    <div class="child">
+        <button class="button" type="submit" id="add">Add</button>
+    <br>
+    <button class="button" type="submit"  id="sub">Sub</button>
+    <br>
+    <button class="button" type="submit" id="division">Division</button>
+    <br>
+    <button class="button" type="submit" id="multi">Multiplication</button>
+    </div>
+    </div>
+    <h1 id="heading" style="text-align: center; color: rgb(139, 104, 104);">The result will be soon </h1>
+
+    <div id="calci">
+        <h1 id="head">Calculator :)</h1>
+        <button id="restart">Restart Calculator</button>
+        <h1 id="para1"></h1>
+        <h1 id="para2"></h1>
+        <h1 id="para3"></h1>
+        <h1 id="para4"></h1>
+    </div>                                   
+    <script src="../JS/eventHandle2.js"></script>
+</body>
+</html>

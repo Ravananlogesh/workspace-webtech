@@ -1,0 +1,103 @@
+#nav_content{
+    border: 1px solid black;
+    height: 90px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    text-align: center;
+    word-spacing: 250px;
+    line-height: 80px;
+    background-color: rgb(86, 194, 194);
+}
+.link{
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: rgb(187, 128, 241);
+    color: rgb(248, 245, 245);
+    box-shadow: 10px 11px 11px black ;
+    transition: 1s; 
+}
+#main_content{
+    height: 100vh;
+    background-color: rgb(203, 230, 154);
+}
+.para{
+    width: 250px;
+    height: 250px;
+    background-color: lightgreen;
+    transform: skew(25deg);
+    
+}
+#para1{ 
+    position: absolute;
+    left: 90px;
+}
+#para2{
+    position: absolute;
+    right: 90px; 
+}
+#para3{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+}
+.para:hover{
+    box-shadow: 15px 7px 15px ;
+    transition: 0.5s;
+}
+#image_content{
+    height: 100vh;
+    background-color: rgb(203, 230, 154);
+}
+.content{
+     width:400px;
+     height: 600px;
+     position: absolute;
+     border-radius: 20px;
+     background-color: rgb(154, 211, 230);
+     font-family: sans-serif;
+     box-shadow: 20px 15px 20px;
+    
+}
+.content:hover{
+    box-shadow: none;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+#img_content1{
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/09/18/27/camera-1130731_1280.jpg");
+    background-size: 400px 240px;
+    background-repeat: no-repeat;
+
+    top: 710px;
+    left: 200px;
+}
+#img_content2{
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/24/13/32/camera-820018_640.jpg");
+    background-size: 400px 240px;
+    background-repeat: no-repeat;
+   top:710px;
+   left: 800px;
+}
+.cart_para{
+    line-height: 30px;
+    margin: 20px;
+}
+.button{
+    padding: 15px 40px;
+    color: white;
+    background-color: rgb(40, 179, 235);
+    margin-left: 100px;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 10px 8px 12px black;
+}
+.content_head{
+    margin-top: 250px;
+}
+.button:hover{
+    box-shadow: none;
+   transform: scale(1.05);
+}

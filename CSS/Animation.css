@@ -1,0 +1,79 @@
+/* p{
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    animation-name: para;
+    animation-duration: 5s;
+    padding: 6px;
+    animation-iteration-count: 3;
+    position: relative;
+    animation-direction: alternate-reverse;
+    animation-delay: 3s;
+    animation-timing-function: linear;
+}
+@keyframes para {
+    0%{
+        background-color: red;
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        background-color: green;
+        top: 0px;
+        left: 300px;
+    }
+    50%{
+        background-color: rgb(34, 0, 128); 
+        top: 300px;
+        left: 300px;
+    }
+    75%{
+        background-color: aqua;
+        top: 300px;
+        left: 0px;
+    }
+    100%{
+        background-color: yellow;
+        top: 0px;
+        left: 0px;
+    }
+} */
+/* p{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    transition-duration: 10s;
+    /* transition: height 10s,width 7s; */
+    /* transition-delay: 3s; */
+    /* transition-timing-function: ; */
+/* } */ 
+/* p:hover{
+    transform: rotate(3000deg);
+} */
+
+#main_content{
+    border: 1px solid black;
+    height: 50vh;
+}
+#button:hover ~.art{
+   animation-name: article1;
+}
+#art1{
+  
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+#art2{
+    animation-duration: 5s; 
+    animation-fill-mode: both;
+}
+@keyframes article1 {
+    from{
+        font-size: 14px;
+    }
+    to{
+        font-size: 34px;
+    }
+}
+

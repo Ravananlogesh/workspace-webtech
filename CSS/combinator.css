@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(163, 209, 250);
+}
+h1{
+    color: rgb(248, 86, 86);
+    font-style: italic;
+    text-align: center;
+}
+/* main>details>article {
+background-color: blueviolet;
+}   */
+main>details>article h3+a{
+padding: 10px 15px;
+border-radius: 30px;
+background-color: rgb(42, 165, 69);
+text-decoration: none;
+font-size: 20px;
+line-height: 2cm;
+font-weight: bold;
+border: none;
+}
+ 
+body details>article>div h3+label+input{
+    border: 5px solid #8f4949;
+    border-radius: 20px;
+    padding:  10px 5px;
+    background-color: #f36e6e;
+}

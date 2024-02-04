@@ -1,0 +1,80 @@
+#main_content{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+#heading{
+    text-align: center;
+    line-height: 80px;
+    margin: 0px;
+}
+#heading::before{
+    margin: 0px;
+    content: "";
+    border: 1px solid rgb(179, 172, 172);
+    border-bottom: none;
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    left: 223px;
+}
+#heading::after{
+    content: "";
+    border: 1px solid rgb(170, 169, 169);
+    border-bottom: none;
+    width: 400px;
+    position: absolute;
+    top: 40px;
+    right :223px;
+}
+
+.content
+{
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    background-color: white;
+}
+#content1{
+    background-image: url("https://html5up.net/uploads/demos/dopetrope/images/pic08.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 230px;
+    justify-content: space-around;
+}
+#content2{
+    background-image: url("https://html5up.net/uploads/demos/dopetrope/images/pic09.jpg");
+    background-repeat: no-repeat;
+    background-size: 450px 230px;
+    justify-content: space-around;
+}
+.img_content{
+    margin-left:20px ;
+    margin-top: 20px;
+    font-family: sans-serif;
+   }
+   .para{
+       line-height: 25px;
+       color: #BAA0BA;
+   }
+   .head{
+       margin-top: 220px;
+       color: #242123;
+   }
+   .link1{
+       
+       padding: 15px 25px;
+       border-radius: 10px;
+       color: white;
+       background-color: #D52248;
+       text-decoration: none;
+   }
+   .link2{
+       margin-left: 20px;
+       padding: 15px 25px;
+       border-radius: 10px;
+       background-color: #242123;
+       color: white;
+       text-decoration: none;
+   }

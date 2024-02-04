@@ -1,0 +1,29 @@
+#main_content{
+    padding: 30px;
+       height: 100vh;
+       border: 15px  dashed black;
+       background-image: url("https://cdn.pixabay.com/photo/2016/01/08/05/24/sunflower-1127174_640.jpg"),
+       url("https://cdn.pixabay.com/photo/2016/01/08/05/24/sunflower-1127174_640.jpg"),
+       url("https://cdn.pixabay.com/photo/2016/01/08/05/24/sunflower-1127174_640.jpg");
+       background-repeat: no-repeat, no-repeat, no-repeat;
+       background-size: 200px 200px,600px 400px,200px 200px;
+       background-position: left top,center, 1100px bottom;
+       background-attachment: fixed;
+       background-clip: content-box;
+}
+h1{
+    color: red;
+    text-align: center;
+    line-height: 1cm;
+}
+h1::before{
+    content: "***";
+}
+h1::after{
+    content: "***";
+}
+p{
+    color: blue;
+    font-size: 24px;
+    line-height: 1cm;
+}

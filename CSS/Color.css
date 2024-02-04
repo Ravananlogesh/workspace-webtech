@@ -1,0 +1,15 @@
+#main_content{
+    height: 500px;
+    background-color: rgb(200, 200, 234);
+}
+#para1{
+    margin: 40px;
+    border: 1px solid black;
+    height: 50vh;
+    background-color: rgba(255, 0, 0, 0.1);
+}
+#para1{
+    background-color: hsl(80, 40%, 50%);
+    background-color: hsla(30, 50%, 50%, 0.8);
+    background-color: #57fafa;
+}

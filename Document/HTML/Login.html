@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body{
+            margin: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        #main{
+            height: 100vh;
+            position: fixed;
+            width: 100%;
+            background-image: url("../../image/backlog.avif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #container{
+            height: 550px;
+            width: 450px;
+            border-radius: 30px;
+            background-color: rgba(17, 17, 17, 0.8);
+        }
+        #form-container{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        #form{
+            padding: 20px;
+            margin-top: 50px;
+            height: 380px;
+            width: 400px;
+        }
+        .content{
+            font-weight:700;
+            display: inline-block;
+            width: 150px;
+            color: white;
+            
+        }
+        .input
+        {
+            border-radius: 15px;
+            border: none;
+            height: 35px;
+            width: 200px;
+            font-size: 18px;
+
+        }
+        .input::placeholder{
+            font-size: 15px;
+        }
+        #submit{
+            border-radius: 40px;
+            border: none;
+            padding: 10px;
+            background-color: #F9EAD7;
+            color: black;
+            font-size: 20px;
+            margin-left: 150px;
+        }
+        #submit:hover{
+           
+            background-color: #09469b;
+            color: white;
+            
+
+        }
+        #para{
+           color: red;
+           display: none;
+           font-weight: bold;
+        }
+        #para::before{
+             content: "**";
+        }
+        #para::after{
+             content: "**";
+        }
+        #lastpara{
+             font-size: 20px;
+             color: rgb(255, 255, 255);
+        }
+        #link{
+            color: rgb(9, 255, 128);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        #head{
+            margin-top: 60px;
+            text-align: center;
+            color: rgb(252, 237, 210);
+        }
+
+        #eye-contain{
+              display: inline;
+              position: relative;
+        }
+    #eye{
+      position: absolute;
+      right: 5px;
+      top: 0px;
+      cursor: pointer;
+    }
+    </style>
+</head>
+<body>
+      <div id="main">
+      <div id="container">
+         <h1 id="head">Student Login</h1>
+               <div id="form-container">
+                <form id="form" action="../../HTML/Clone.html">
+                  <label for="name" class="content">Student Username</label>
+                  <input type="text" id="name" name="name" class="input" placeholder="Student Username" required>
+                  <br>
+                  <p></p>
+                  <p id="para"></p><br>
+                  <br>
+                  
+                  <label for="password" class="content">Password</label>
+                  
+                  <div id="eye-contain" >
+                    <input id="password" name="password" type="password" class="input" placeholder="Password" required>
+                    <div id="eye"><i class="fa-solid fa-eye-slash"></i></div>
+                  </div>
+                  <br><br>
+                  
+                  
+                <br>
+                <input id="submit" type="submit" value="Login">
+                <p id="lastpara">You don't Have Account ?  <a id="link" href="../HTML/register.html">Register Here</a>.</p>
+                </form>
+               </div>
+      </div>
+      </div>
+      <script src="../JS/login.js"></script>
+      <script src="https://kit.fontawesome.com/4080ed022e.js" crossorigin="anonymous"></script>
+</body>
+</html>

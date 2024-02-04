@@ -1,0 +1,129 @@
+#main_content{
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: yellow;
+    position: absolute;
+    box-shadow: -20px -20px 20px black;
+    box-shadow: 20px 20px 20px black;
+}
+#content1{
+    width: 140px;
+    height:100px;
+    border-radius:80%; 
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    background-color: rgb(244, 247, 250);
+    
+}
+#content{
+    width: 140px;
+    height:100px;
+    border-radius:80%;
+    position: absolute;
+    left: 280px;
+    top: 80px;
+    background-color: rgb(244, 247, 250);
+}
+#eye1{
+    width: 130px;
+    height:100px;
+    border-radius: 80%;
+    background-color: rgb(107, 104, 104);
+    
+}
+
+#eye2{
+    width: 130px;
+    height:100px;
+    border-radius: 80%;
+    background-color: rgb(110, 105, 105);
+    
+}
+
+.para{  
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+    height: 40px;
+    animation-name: eye1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-color: black;
+    border-radius: 100%;
+}
+@keyframes eye1 {
+    0%{
+        top: 10px;
+        left: 0px;
+    }
+    
+    25%{
+        top: 30px;
+        left: 20px;
+    }
+    
+    50%{
+        top:35px;
+        left: 40px;
+    }
+    75%{
+        top: 30px;
+        left: 60px;
+    }
+    100%{
+        top: 10px;
+        left: 80px;
+        animation-delay: 2s;
+    }
+}
+#content2{
+   position: absolute;
+   height: 150px;
+   width: 200px; 
+   border-radius: 80%; 
+   top: 240px;
+   left: 150px;  
+   background-color: white;
+   animation-name:mouth1;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+#mouth{
+    position: relative; 
+    top: 30px;
+    height: 150px;
+   width: 200px; 
+   border-radius: 80%; 
+    background-image: url("../image/lip1.png"); 
+    background-size: 200px 100px;
+    background-repeat: no-repeat;
+   
+}
+@keyframes mouth1 {
+    0%{
+        transform:scaleX(1) ;
+    }
+    25%{
+        transform: scaleY(1.3);
+    }
+    50%{
+        transform: scaleY(1);
+    }
+    75%{
+        transform: scaleX(1.2);
+    }
+    100%{
+        transform: scaleX(1.4);
+    }
+}
+#white{
+    width: 130px;
+    height: 10px;
+    position: absolute;
+    left: 190px;
+    top: 310px;
+}

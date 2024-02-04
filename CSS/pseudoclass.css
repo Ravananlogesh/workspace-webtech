@@ -1,0 +1,68 @@
+/* unvisited Link */
+
+/* a:link{
+    color: red;
+} */
+
+/* Visited Link */
+
+/* a:visited{
+    color: red;
+} */
+
+/* Active State ancor link */
+/* a:active{
+    color: green;
+} */
+ /* a:hover{
+    font-size: 28px;
+    color: re;    
+ } */
+  /* button:hover+div>h1{
+    display: inline;
+ }
+ button:hover+div{
+    background-color: red;
+ }
+ div{
+  border: 1px solid black;
+   height: 50vh;
+   display: block;
+    
+ }
+ /* span{
+    display: none;
+ } */
+ /* h1{
+    display: none;
+} 
+img{
+    opacity: 0.1;
+}
+img:hover{
+    opacity: 1.0;
+} */ 
+/* input:enabled{
+    background-color: aqua;
+    padding: 10px 10px;
+    border-radius: 25px;
+} */
+/* input:disabled{
+    background-color: aqua;
+} */
+/* input:focus{
+    background-color: yellow;
+    color: red;
+} */
+/* input:read-only{
+    background-color: saddlebrown;
+}
+input:read-write{
+    background-color: yellow;
+} */
+/* input::placeholder{
+    background-color: red;
+} */
+input:required{
+    background-color: aquamarine;
+}

@@ -1,0 +1,41 @@
+#main_content{
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+#list_content{
+    border: 1px solid black;
+    height: 400px;
+   padding: 20px;
+   max-height: 400px;
+    left: 100px;
+    overflow: scroll;
+}
+#outer_content{
+    padding: 60px;
+    border: 1px solid black;
+    height: 70vh;
+    max-height: 70vh;
+    text-align: center;
+    line-height: 40px;
+    
+}
+li{
+font-size: 20px;
+}
+h1::before{
+    content: "****";
+}
+h1::after{
+    content: "****";
+}
+p{
+    border: 1px solid black;
+    display: inline-block;
+    width: 435px;
+}
+#width_content{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}

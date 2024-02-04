@@ -1,0 +1,31 @@
+
+div{
+border: 1px solid black;
+height: 100vh;
+
+}
+nav{
+    border: 2px solid black;
+    text-align: center;
+    background-color: aqua;
+    word-spacing: 200px;
+    line-height: 60px;
+    border-top-style: 1px;
+    height: 10vh;  
+}
+p{ 
+    color: brown;
+    line-height: 40px;
+    word-spacing: 90px;
+    text-shadow: 1px 1px brown;  
+}
+a{
+    text-decoration: none;
+}
+input{
+    position:absolute;
+    left: 600px;
+}
+input:hover{
+      background-color: rgb(77, 30, 30);
+}

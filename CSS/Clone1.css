@@ -1,0 +1,266 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+#main_module{
+    height: auto;
+}
+#module{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+#nav_module{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    align-items: center;
+    width: 100%;
+    background-color: #333333;
+    position: sticky;
+    top: 0px;
+}
+.nav_link{
+    text-decoration: none;
+    color: rgb(253, 245, 245);
+}
+.navitems{
+    margin: left 30px;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;
+}
+.navitems:hover{
+    background-color: #3b3b3b;
+}
+#head_module{
+    height: 97vh;
+    display: flex;
+    position: static;
+    top: 0px;
+   justify-content: space-around;
+   background-image: url("../image/gitar.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+#content{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+}
+.heading{
+text-align: center;
+font-weight: bold;
+color: white;
+}
+#head1{
+ height: 100px;
+ font-size: 60px;
+}
+#head2{
+height: 50px;
+font-size: 30px;
+}
+#para1{
+line-height: 30px;
+font-size: 19px;
+}
+#music_module{
+display: flex;
+flex-direction: column;
+width: 100%;
+color: white;
+background-color: rgb(37,36,40);
+text-align: center;
+height: 180vh;
+align-items: center;
+}
+#music_content1{
+    height: 30%; 
+    margin-top: 70px;
+}
+#music_head1{
+font-size: 40px;
+height: 90px;
+}
+#music_head2{
+    height: 65px;
+}
+#music_para1{
+    font-size: 19px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+#link{
+    padding: 20px;
+   background-color: rgb(211,7,27);
+   color: white;
+   font-size: 13px;
+   text-decoration: none;
+}
+#art{
+    margin-top: 50px;
+}
+#music_content2{
+    height: 70%;
+}
+#image{
+    height: 750px;
+    width: 1050px;
+}
+#video_module{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#video_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin-left: 10vh;
+}
+#video_head{
+    color: rgb(50,51,50);
+    height: 120px;
+    line-height: 140px;
+
+}
+#video_para{
+    line-height: 30px;
+    word-spacing: 6px;
+    margin-bottom: 30px;
+}
+#video-link{
+    background-color: rgb(16,48,99);
+    padding: 20px 12px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+#video_img{
+    margin-top: 20px;
+}
+#card_module{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+#card1{
+    width: 50%;
+    height: 60vh;
+    justify-content: flex-start;
+}
+#card2{
+    width: 50%;
+    height: 60vh;
+    justify-content: flex-end;
+}
+#card_img{
+    height: 380px;
+    width: 550px;
+}
+#card_head{
+    color: rgb(51,51,50);
+   height: 100px;
+   line-height: 120px;
+}
+#card_para{
+    color: rgb(50,51,50);
+    line-height: 25px;
+    word-spacing: 7px;
+    font-size: 14px;
+    margin-right:30px;
+}
+#card_para1{
+    color: rgb(50,51,50);
+    word-spacing: 7px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 94%;
+    height: 40px;
+    border-bottom: 1px solid rgb(96, 97, 96);
+
+}
+#footer_module{
+    height: 45vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#foot1{
+    height: 35vh;
+    background-color: rgb(36,36,41);
+    display: flex;
+    width: 100%;
+}
+#foot2{
+    height: 10vh;
+    background-color: rgb(50,51,50);
+    text-align: center;
+}
+#inner_foot{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+.sec{
+    width: 200px;
+    height: 180px;
+    color: white;
+}
+.sec_head{
+    height: 30px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid rgb(114, 111, 111);
+}
+.footer_link{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(180, 178, 178);
+}
+#copyright{
+    line-height: 60px;
+    color: white;
+    font-size: 14px;
+}
+#gift_module{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-image: url("https://jolly-kalam-23776e.netlify.app/mytunes/img/section-bg.jpeg");
+    background-size: 1500px 500px;
+} 
+#gift_content{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10vh;
+}
+#gift_head1{
+    color: white;
+
+}  
+#gift_head2{
+    margin-top: 30px;
+    color: white;
+    height: 100px;
+    line-height: 30px;
+    font-weight: bold;
+}  

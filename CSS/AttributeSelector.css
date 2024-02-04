@@ -1,0 +1,40 @@
+img{
+    height: 260px;
+    width: 360px;
+}
+
+/*just with attributes*/
+
+/* img[alt]{
+    
+    border: 5px solid red;
+} */
+
+/* img[alt="page"]{
+    border: 5px solid red;
+} */
+
+/*only prefix word select*/
+
+/* img[alt^="lamp"]{ 
+    border: 5px solid red;
+} */
+
+/* img[alt$="lamp"]{
+    border: 5px solid red;
+} */
+
+/* check fro value followed by hypen */
+/* img[alt|="lamp"]{
+    border: 5px solid red;
+} */
+
+/* check for the value followed by space */
+/* img[alt~="lamp"]{
+    border: 5px solid red;
+} */
+
+/*check for value which given is selector value*/
+img[alt*="lam"]{
+    border: 5px solid red;
+}

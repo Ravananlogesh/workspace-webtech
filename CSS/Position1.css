@@ -1,0 +1,46 @@
+#main_content{
+    border: 1px solid black;
+    background-color: aqua;
+    position: sticky;
+    top: 0px;
+}
+.nav{
+    border: 1px solid black;
+    display: inline-block;
+    width: 216.5px;
+    line-height: 70px;
+}
+#home{
+    border: 1px solid black;
+    height: 100vh;
+}
+#gallery{
+    border: 1px solid black;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    width: 216.5px;
+    text-align: center;
+    display: none;
+    border: 1px solid black;
+    background-color: blue;
+}
+#register_module:hover+#register_content{
+    display: block;
+}
+#home_module:hover+#home_content{
+    display: block;
+}
+#gallery_module:hover+#gallery_content{
+    display: block;
+}
+#contact_module:hover+#contact_content{
+    display: block;
+}
+#packages_module:hover+#packages_content{
+    display: block;
+}
+#about_module:hover+#about_content{
+    display: block;
+}

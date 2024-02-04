@@ -1,0 +1,186 @@
+#main_content{
+    height: 100vh;
+   text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content1{
+    height: 50vh;
+}
+.para{
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    top: 90px;
+    height: 30vh;
+    background-color: rgb(255, 94, 0);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite; 
+    animation-duration: 1500ms;
+}
+#para1{
+    animation-name: music;
+   
+    
+}
+@keyframes music {
+    0%{
+        height: 1vh;
+    }
+    30%{
+        height: 30vh;
+    }
+    60%{
+        height: 1vh;
+    }
+
+    100%{
+        height: 15vh;
+    }
+
+}
+#para8{
+    animation-name: music2;
+    
+    
+}
+@keyframes music2 {
+    0%{
+        height: 30vh;
+    }
+    30%{
+        height: 10vh;
+    }
+    60%{
+        height: 30vh;
+    }
+
+    100%{
+        height: 20vh;
+    }
+
+}
+#para2{
+    animation-name: music2;
+    
+}
+@keyframes music2 {
+    0%{
+        height: 30vh;
+    }
+    30%{
+        height: 1vh;
+    }
+    60%{
+        height: 15vh;
+    }
+
+    100%{
+        height: 1vh;
+    }
+
+}
+#para3{
+    animation-name: music3;
+    
+}
+@keyframes music3 {
+    0%{
+        height: 30vh;
+    }
+    30%{
+        height: 1vh;
+    }
+    60%{
+        height: 15vh;
+    }
+
+    100%{
+        height: 1vh;
+    }
+
+}
+#para5{
+    animation-name: music4;
+    
+}
+@keyframes music4 {
+    0%{
+        height: 30vh;
+    }
+    30%{
+        height: 1vh;
+    }
+    60%{
+        height: 20vh;
+    }
+
+    100%{
+        height: 1vh;
+    }
+
+}
+#para6{
+    animation-name: music5;
+    
+}
+@keyframes music5 {
+    0%{
+        height: 30vh;
+    }
+    30%{
+        height: 1vh;
+    }
+    60%{
+        height: 20vh;
+    }
+
+    100%{
+        height: 1vh;
+    }
+
+}
+#para4{
+animation-name: music6;
+
+}
+@keyframes music6 {
+    0%{
+        height: 5vh;
+    }
+    30%{
+        height: 25vh;
+    }
+    60%{
+        height: 1vh;
+    }
+
+    100%{
+        height: 30vh;
+    }
+} 
+#para7{
+    animation-name: music7;
+    
+    
+    }
+    @keyframes music7 {
+        0%{
+            height: 30vh;
+        }
+        30%{
+            height: 20vh;
+        }
+        60%{
+            height: 20vh;
+        }
+    
+        100%{
+            height: 5vh;
+        }
+    } 
+    #para9{
+        visibility: hidden;
+    }
+#content2{
+    text-align: center;
+}

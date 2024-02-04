@@ -1,0 +1,31 @@
+#main_content{
+    border: 1px solid black;
+    padding: 60px;
+}
+#content{
+    border: 1px solid black;
+}
+.para{
+    padding: 10px;
+    border-width:7px ;
+    display: inline-block;
+    width: 300px;
+    border-color: red;
+}
+#para1{
+    margin: 30px 30px;
+    padding-bottom: 70px;
+    background-color: yellow;
+    margin-right: 40px;
+}
+#para2{
+    width: 300px;
+    margin: 30px 30px;
+    padding-bottom: 70px;
+    background-color: aqua;
+}
+#para3{
+    margin: 30px 30px;
+    padding-bottom: 70px;
+    background-color: yellow;
+}
